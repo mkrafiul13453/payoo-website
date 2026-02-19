@@ -39,7 +39,7 @@ document.getElementById("cashout-btn").addEventListener("click",function(){
         // 2.new div a inner html addd korbo
         newHistory.innerHTML=`
             <div class="transaction-card p-5 bg-base-100">
-             Cashout ${cashoutAmount} TAKA Success to ${cashoutNumber} at ${new Date()}
+             Cashout ${cashoutAmount} TAKA  Success to ${cashoutNumber} at ${new Date()}
             </div>
         `;
         // 3.history container and newDiv append korbo

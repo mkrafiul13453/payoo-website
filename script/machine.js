@@ -1,5 +1,5 @@
 function getValueFromInput (id){
-    const input = document.getElementById(id);
+    const input = document.getElementById(id); 
     const value=input.value;
     console.log(id,value);
     return value;
@@ -31,12 +31,17 @@ function showOnly(id){
     console.log("Clicked");
     const addmoney=document.getElementById("add-money");
     const cashout=document.getElementById("cashout");
+    const sendMoney=document.getElementById("send-money");
+    const payBill=document.getElementById("pay-bill");
     const history=document.getElementById("history");
 
     // Sobaika hide kore dao
     addmoney.classList.add("hidden");
     cashout.classList.add("hidden");
+    sendMoney.classList.add("hidden");
+    payBill.classList.add("hidden");
     history.classList.add("hidden");
+    
 
     // id wala element ta show koro
     const selected=document.getElementById(id);

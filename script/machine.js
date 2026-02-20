@@ -47,4 +47,6 @@ function showOnly(id){
     const selected=document.getElementById(id);
     selected.classList.remove("hidden");
 
+    
+
 }
